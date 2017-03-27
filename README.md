@@ -19,6 +19,7 @@ vagrant plugin install vagrant-vbguest
 
 
 ## Commands to run
+Note that the Vagrant up process will ask you to choose a Network interface to use to obtain an external IP
 
 ```
 vagrant up 
