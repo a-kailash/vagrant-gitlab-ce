@@ -14,3 +14,4 @@ sudo systemctl reload firewalld
 
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
 sudo yum install -y gitlab-ce
+sudo gitlab-ctl reconfigure
