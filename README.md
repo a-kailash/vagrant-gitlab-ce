@@ -18,12 +18,12 @@ vagrant plugin install vagrant-vbguest
 ```
 
 
-## Commands to run
+## Bring up Vagrant VM with GitLab installation and provisioning
+
 Note that the Vagrant up process will ask you to choose a Network interface to use to obtain an external IP
 
 ```
 vagrant up 
-
 ```
 
 This installs and configures Gitlab as recommeded by GitLab instructions shown on this page:
@@ -31,7 +31,7 @@ https://about.gitlab.com/downloads/#centos7
 
 Once installed an configured, you need to find the external IP for you Vagrant VM and go to the GitLab Login Page in a browser.
 
-http://<your vm ip>/
+http://your vm ip/
 
 Note that by default only an HTTP interface is enabled.
 
